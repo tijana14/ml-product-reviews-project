@@ -8,7 +8,7 @@ import joblib
  
 #url = "https://raw.githubusercontent.com/tijana14/ml-product-reviews-project/main/data/product_reviews_full.csv"
 
-df = pd.read_csv("product_review_full.csv")
+df = pd.read_csv("data/product_review_full.csv")
  
 # drop all rows with missing values
 df = df.dropna()
